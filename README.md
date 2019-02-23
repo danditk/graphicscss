@@ -16,7 +16,10 @@ Lerned:
 	- git clone + link								download any publish repository to local station
 	- branch brabch_name							creating new branch - branch_name
 	- git branch									check witch branch is active
-	- git checkout brabch_name						switch branch
+	- git checkout brabch_name						switch to branch_name
+	- git checkout master							switch to master
+	- git merge brabch_name							add chenges to master branch
+	- git branch -d branch_name						deleteing branch_name
 	
 	
 .#Surce
