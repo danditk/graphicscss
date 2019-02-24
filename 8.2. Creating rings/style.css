@@ -1,0 +1,43 @@
+html, body 
+{
+  height: 100%;
+}
+
+body 
+{
+  overflow: hidden;
+}
+
+.circle
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+}
+
+.circle:before
+{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transform-origin: center;
+}
+
+.circle:after
+{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transform-origin: center;  
+} 

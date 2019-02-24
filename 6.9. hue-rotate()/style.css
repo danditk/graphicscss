@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2980b9;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    font-size: 200%;
+    text-shadow: 1px 1px 1px #000;
+}
+.hero {
+    background: url('/static/lessons/4.jpg') bottom;
+    background-size: cover;
+    min-height: 150px;
+    box-shadow: 1px 1px 3px #000;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 10px #000;
+    text-align: center;
+}
+.example,
+.exercise {
+    padding-bottom: 20px;
+}
+.example div {
+	width: 150px;
+	padding: 10px;
+	border: 1px solid #34495e;
+	margin: 10px auto;
+	height: 200px;
+	background: url('/static/lessons/19.jpg') center;
+	background-size: cover;
+}
+.example div:nth-of-type(1) {
+	-webkit-filter: hue-rotate(120deg);
+	filter: hue-rotate(120deg);
+}
+.example div:nth-of-type(2) {
+	filter: hue-rotate(10deg);
+	-webkit-filter: hue-rotate(10deg);
+}
+
+/*EXERCISE*/
+
+.exercise div {
+    width: 50%;
+    background: url('/static/lessons/7.jpg') center;
+    background-size: cover;
+    height: 200px;
+    margin: 15px auto;
+}
+
+
+/*EXERCISE*/
+
+.exercise div {
+    width: 50%;
+    background: url('/static/lessons/7.jpg') center;
+    background-size: cover;
+    height: 200px;
+    margin: 15px auto;
+}
+
+.small-rotation
+{
+    -webkit-filter: hue-rotate(50deg);   
+}
+
+.big-rotation
+{
+    -webkit-filter: hue-rotate(200deg);   
+} 

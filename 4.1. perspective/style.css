@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2980b9;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    font-size: 200%;
+    text-shadow: 1px 1px 1px #000;
+}
+.hero {
+    background: url('/static/lessons/4.jpg') bottom;
+    background-size: cover;
+    min-height: 150px;
+    box-shadow: 1px 1px 3px #000;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 10px #000;
+    text-align: center;
+}
+.example,
+.exercise {
+    padding-bottom: 20px;
+}
+.global-perspective, .element-perspective {
+	margin-top: 20px;
+}
+.global-perspective {
+	perspective: 800px;
+}
+.global-perspective div {
+	transform: rotateY(70deg);
+}
+.global-perspective div, .element-perspective div {
+	background: red;
+	width: 40%;
+	height: 30px;
+	margin: 5px auto;
+}
+.element-perspective div {
+	transform: perspective(800px) rotateY(70deg);
+}
+
+/*EXERCISE*/
+
+.exercise > div {
+	width: 50%;
+	margin: 10px auto;
+	color: #fff;
+	background-color: #9b59b6;
+}
+.small-perspective {
+    
+}
+.big-perspective {
+    
+}
+.complex-perspective {
+    transform: rotateY(60deg);
+}
+
+/*EXERCISE*/
+
+.exercise > div {
+	width: 50%;
+	margin: 10px auto;
+	color: #fff;
+	background-color: #9b59b6;
+}
+.small-perspective {
+    transform: perspective(200px) rotateY(60deg);
+}
+.big-perspective {
+    transform: perspective(800px) rotateY(60deg);
+}
+.complex-perspective {
+    transform: rotateY(60deg);
+    perspective: 800px;
+}
