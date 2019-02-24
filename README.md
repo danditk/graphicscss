@@ -4,6 +4,7 @@ Graphics and animations in CSS by KODILLA.com
 Lerned:
 
 .#GIT:
+
 	- mkdir folder_name								creating folder
 	- cd folder_name								go to this folder
 	- git init										creating local repository
@@ -22,8 +23,9 @@ Lerned:
 	- git branch -d branch_name						deleteing branch_name
 	
 	
-.#Surce
+.#Sources:
 
-GIT: overment
-
-https://www.youtube.com/watch?v=LEystZRF8fQ&index=1&list=PLjHmWifVUNMJ4UxaI2AL4Joh7IlRqaTdd
+	- Grafika i animacje w CSS by KODILLA
+	https://kodilla.com/pl/kursy/css-grafika-i-animacje
+	- Poznaj GIT w 15 minut by overment
+	https://www.youtube.com/watch?v=LEystZRF8fQ&index=1&list=PLjHmWifVUNMJ4UxaI2AL4Joh7IlRqaTdd
