@@ -10,7 +10,9 @@ Lerned:
 
 .#CSS:
 
-	- .						.
+	- transition-property						whitch values we want change
+	- transition-duration						how long that changes will take place
+	- transition-timing-function						determine the speed of change: ease (quick start and slow end), linear (constant tempo), ease-in-out (slow start and end), cubic-bezier (x, x, x, x) (where x is a number from 0 to 1) 
 
 .#GIT:
 
